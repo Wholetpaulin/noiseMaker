@@ -4,5 +4,5 @@ do
     git add -A
     git commit -m "WIP"
     git push origin master
-    sleep $((10800 + RANDOM % 97200))
+    sleep $((10800 + RANDOM % 180000))
 done
